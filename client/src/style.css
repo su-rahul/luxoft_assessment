@@ -1,0 +1,90 @@
+.login-wrapper {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  border: 1px solid grey;
+  padding: 20px;
+  left: 35%;
+  top: 25%;
+  position: absolute;
+}
+
+.input-wrapper {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+}
+
+.input-wrapper .label {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.input-wrapper input {
+  height: 30px;
+}
+
+.input-wrapper button {
+  height: 35px;
+  width: 30%;
+  align-self: center;
+  background-color: #0159d8;
+  color: white;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.details-container {
+  border: 1px solid grey;
+  width: 35%;
+  left: 30%;
+  position: absolute;
+  padding: 30px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  padding: 10px;
+}
+
+.row div {
+  width: 50%;
+}
+
+.details-wrapper {
+  border: 1px solid grey;
+  width: 35%;
+  left: 30%;
+  position: absolute;
+  padding: 30px;
+}
+
+.details-wrapper table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.details-wrapper td, .details-wrapper th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.details-wrapper tr:nth-child(even){background-color: #f2f2f2;}
+
+.details-wrapper tr:hover {background-color: #ddd;}
+
+.details-wrapper th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #04AA6D;
+  color: white;
+}
